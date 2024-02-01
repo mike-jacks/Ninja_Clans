@@ -79,7 +79,7 @@ class Player:
         self.action = None
     
     def play_clan(self, ninja_clan: NinjaClan) -> NinjaClan:
-        print(f"{self.player_name} attacks with their {ninja_clan.signature_weapon()}")
+        print(f"{self.player_name} attacks with their {ninja_clan.signature_weapon()} Utilizing {ninja_clan.fighting_style()}")
         return ninja_clan
 
 
